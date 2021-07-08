@@ -102,9 +102,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="logo_bg">
-                    
-                </div>
+            </div>
+            <div class="container">
                 <div class="rights">
                     <p>All site content TM and <i class="far fa-copyright"></i> 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved.</p>  </span>
                     <p><a href="#">Cookies settings</a></p>

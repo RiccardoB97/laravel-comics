@@ -65,19 +65,26 @@ body {
 }
 
 #site_footer .links {
-  background-image: url(/images/footer-bg.jpg);
+  background-image: url(/images/dc-logo-bg.png), url(/images/footer-bg.jpg);
+  background-position: center right, center left;
+  background-repeat: no-repeat;
   padding: 1.5rem 0;
 }
 
+#site_footer .links .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 #site_footer .links .container .link_cols {
-  width: 50%;
+  width: calc(100% / 2);
   display: flex;
   justify-content: flex-start;
 }
 
 #site_footer .links .container .link_cols .col {
   width: calc(100% / 3 - 1rem);
-  margin-right: 1rem;
+  padding-right: 1rem;
 }
 
 #site_footer .links .container .link_cols .col h2 {
@@ -97,6 +104,10 @@ body {
 }
 
 #site_footer .links .container .logo_bg {
+  width: calc(100% / 2);
+}
+
+#site_footer .links .container .logo_bg img {
   width: 50%;
 }
 
