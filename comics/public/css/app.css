@@ -158,3 +158,46 @@ body {
   height: 25px;
 }
 
+.series {
+  background-color: #303030;
+  color: white;
+}
+
+.series .title {
+  background-color: #0282F9;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.series .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.series .cards .card {
+  margin: 0 0.7rem 1.5rem 0;
+  width: 180px;
+  text-transform: uppercase;
+}
+
+.series .cards .card h4 {
+  font-size: 0.7rem;
+  padding: 0.5rem 0;
+}
+
+.series .cards .card .card_img {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+
+.series .cards .card .card_img img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
