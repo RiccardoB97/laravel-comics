@@ -1,0 +1,41 @@
+#site_header{
+    .blue_bar{
+        background-color: $brand_primary;
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content:flex-end;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 0.8rem;
+                padding: 0.5rem 0 0.5rem 1rem;
+            }
+        }   
+    }
+    nav{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        padding: 1rem 0;
+        .logo{
+            img{
+                height:80px;
+            }
+        }
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: $brand_secondary;
+                    padding: 2rem 1rem;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+
+}

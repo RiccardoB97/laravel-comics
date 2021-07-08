@@ -13,27 +13,36 @@
 <body>
     <!-- Site header -->
     <header id="site_header">
-    <div class="blue_bar">
-        <a href="#">DC POWER™ VISA®</a>
-        <a href="#">ADDITIONAL DC SITES <i class="fas fa-sort-down"></i></a>
-    </div>
-    <!-- Navbar -->
-        <nav>
-            <ul>
-                <li><a href="#">characters</a></li>
-                <li><a href="{{route('comics')}}">comics</a></li>
-                <li><a href="#">movies</a></li>
-                <li><a href="#">tv</a></li>
-                <li><a href="#">games</a></li>
-                <li><a href="#">collectibles</a></li>
-                <li><a href="#">videos</a></li>
-                <li><a href="#">fans</a></li>
-                <li><a href="#">news</a></li>
-                <li><a href="#">shop <i class="fas fa-sort-down"></i></a></li>
-            </ul>
-        </nav>
-
-    <!-- /Navbar -->
+        <div class="blue_bar">
+            <div class="container">
+                <a href="#">DC POWER™ VISA®</a>
+                <a href="#">ADDITIONAL DC SITES <i class="fas fa-sort-down"></i></a>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Navbar -->
+            <nav>
+                    <div class="logo">
+                        <img src="../images/dc-logo.png" alt="">
+                    </div>
+                    <ul>
+                        <li><a href="#">characters</a></li>
+                        <li><a href="{{route('comics')}}">comics</a></li>
+                        <li><a href="#">movies</a></li>
+                        <li><a href="#">tv</a></li>
+                        <li><a href="#">games</a></li>
+                        <li><a href="#">collectibles</a></li>
+                        <li><a href="#">videos</a></li>
+                        <li><a href="#">fans</a></li>
+                        <li><a href="#">news</a></li>
+                        <li><a href="#">shop <i class="fas fa-sort-down"></i></a></li>
+                    </ul>
+                </nav>
+            <!-- /Navbar -->
+        </div>
+        <div class="jumbotron">
+            
+        </div>
     </header>
     <!-- /Site header -->
     <!-- Site main -->
