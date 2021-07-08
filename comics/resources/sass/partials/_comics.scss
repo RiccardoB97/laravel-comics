@@ -1,6 +1,7 @@
 .series{
     background-color: $grey_bg;
     color: white;
+    padding-bottom: 1rem;
     .title{
         background-color: $brand_primary;
         padding: 1rem;
@@ -28,6 +29,36 @@
                 img{
                     height: fit-content;
                 }
+            }
+        }
+    }
+    .load{
+        text-align: center;
+        a{
+            padding: 0.5rem 2rem;
+            background-color:$brand_primary;
+            text-decoration: none;
+            color: white;
+            font-size: 0.8rem;
+        }
+    }
+}
+.shop-wrap{
+    background-color: $brand_primary;
+    padding: 2rem 0;
+    color: white;
+    .shop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .buy{
+            padding: 0 1.5rem;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            img{
+                margin-right: 0.7rem;
+                height: 40px;
             }
         }
     }
