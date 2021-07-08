@@ -32,6 +32,9 @@
                 <li><a href="#">shop <i class="fas fa-sort-down"></i></a></li>
             </ul>
         </nav>
+        @foreach($comics as $comic)
+        <h2>{{$comic['title']}}</h2>
+    @endforeach
     <!-- /Navbar -->
     </header>
     <!-- /Site header -->
