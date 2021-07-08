@@ -64,3 +64,39 @@ body {
   background-position: 50% 5%;
 }
 
+#site_footer .socials {
+  background-color: #303030;
+  padding: 2rem 0;
+}
+
+#site_footer .socials .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#site_footer .socials .container .button {
+  padding: 0.8rem;
+  border: 1px solid #0282F9;
+  text-decoration: none;
+  color: white;
+}
+
+#site_footer .socials .container .social-links {
+  display: flex;
+  align-items: center;
+}
+
+#site_footer .socials .container .social-links a {
+  padding: 0 0.5rem;
+  text-decoration: none;
+}
+
+#site_footer .socials .container .social-links a:first-child {
+  color: #0282F9;
+}
+
+#site_footer .socials .container .social-links a img {
+  height: 25px;
+}
+

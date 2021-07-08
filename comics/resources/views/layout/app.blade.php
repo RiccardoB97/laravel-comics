@@ -41,7 +41,7 @@
             <!-- /Navbar -->
         </div>
         <div class="jumbotron">
-            
+
         </div>
     </header>
     <!-- /Site header -->
@@ -52,7 +52,22 @@
     <!-- /Site main -->
     <!-- Site footer -->
     <footer id="site_footer">
-        footer
+        <div class="links">
+
+        </div>
+        <div class="socials">
+            <div class="container">
+                <a href="#" class='button'>SIGN-UP NOW!</a>
+                <div class="social-links">
+                        <a href="#">FOLLOW US</a>
+                        <a href="#"><img src="../images/footer-facebook.png" alt=""></a>
+                        <a href="#"><img src="../images/footer-twitter.png" alt="" alt=""></a>
+                        <a href="#"><img src="../images/footer-youtube.png" alt="" alt=""></a>
+                        <a href="#"><img src="../images/footer-pinterest.png" alt="" alt=""></a>
+                        <a href="#"><img src="../images/footer-periscope.png" alt="" alt=""></a>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- /Site footer -->
 

@@ -1,0 +1,32 @@
+#site_footer{
+
+    .socials{
+        background-color: $grey_bg;
+        padding: 2rem 0;
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .button{
+                padding: 0.8rem;
+                border: 1px solid $brand_primary;
+                text-decoration: none;
+                color: white;
+            }
+            .social-links{
+                    display: flex;
+                    align-items: center; 
+                        a{  
+                            padding: 0 0.5rem;
+                            text-decoration: none;
+                            &:first-child{
+                                color: $brand_primary;
+                            }   
+                            img{
+                                height: 25px;
+                            }             
+                        }
+            }
+        }
+    }
+}
