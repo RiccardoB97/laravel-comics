@@ -64,6 +64,53 @@ body {
   background-position: 50% 5%;
 }
 
+#site_footer .links {
+  background-image: url(/images/footer-bg.jpg);
+  padding: 1.5rem 0;
+}
+
+#site_footer .links .container .link_cols {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#site_footer .links .container .link_cols .col {
+  width: calc(100% / 3 - 1rem);
+  margin-right: 1rem;
+}
+
+#site_footer .links .container .link_cols .col h2 {
+  color: white;
+  padding: 1rem 0;
+}
+
+#site_footer .links .container .link_cols .col ul {
+  list-style: none;
+}
+
+#site_footer .links .container .link_cols .col ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+}
+
+#site_footer .links .container .logo_bg {
+  width: 50%;
+}
+
+#site_footer .links .container .rights {
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+}
+
+#site_footer .links .container .rights a {
+  color: #0282F9;
+  text-decoration: none;
+}
+
 #site_footer .socials {
   background-color: #303030;
   padding: 2rem 0;
