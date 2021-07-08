@@ -7,6 +7,6 @@
     <title>Home - Laravel-comics</title>
 </head>
 <body>
-    <h1>I m working</h1>
+    
 </body>
 </html>
