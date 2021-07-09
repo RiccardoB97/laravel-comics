@@ -36,7 +36,7 @@ Route::get('comics/{id}', function ($id) {
     } else{
         abort(404);
     }
-});
+})->name('comic');
 
 
 // /Comics
