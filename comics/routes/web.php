@@ -25,13 +25,13 @@ Route::get('/characters', function () {
 // Comics
 Route::get('/comics', function () {
     $comics = config('comics.data');
-    return view('comics', compact('comics'));
+    return view('comics.index', compact('comics'));
 })->name('comics');
 
 Route::get('comics/{id}', function ($id) {
     $comics = config('comics.data');
-    ddd($comics[$id]);
-    return "mostra il comic con id $id";
+    $comic = $comics[$id];
+    return view('comics.show',  compact('comic'));
 });
 
 
