@@ -3,5 +3,5 @@
 @section('title', 'Home - Laravel-comics')
 
 @section('content')
-    <h1>Main content</h1>
+    <h1>main content here</h1>
 @endsection

@@ -9,6 +9,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1d47f7a9f5.js" crossorigin="anonymous"></script>
     <title>@yield('title', 'Laravel-comics')</title>
+    <link rel="stylesheet" href="../images/favicon.ico">
 </head>
 <body>
     <!-- Site header -->
@@ -28,14 +29,14 @@
                     <ul>
                         <li><a href="#">characters</a></li>
                         <li><a href="{{route('comics')}}">comics</a></li>
-                        <li><a href="#">movies</a></li>
-                        <li><a href="#">tv</a></li>
-                        <li><a href="#">games</a></li>
-                        <li><a href="#">collectibles</a></li>
-                        <li><a href="#">videos</a></li>
-                        <li><a href="#">fans</a></li>
-                        <li><a href="#">news</a></li>
-                        <li><a href="#">shop <i class="fas fa-sort-down"></i></a></li>
+                        <li><a href="{{route('movies')}}">movies</a></li>
+                        <li><a href="{{route('tv')}}">tv</a></li>
+                        <li><a href="{{route('games')}}">games</a></li>
+                        <li><a href="{{route('collectibles')}}">collectibles</a></li>
+                        <li><a href="{{route('videos')}}">videos</a></li>
+                        <li><a href="{{route('fans')}}">fans</a></li>
+                        <li><a href="{{route('news')}}">news</a></li>
+                        <li><a href="{{route('shop')}}">shop <i class="fas fa-sort-down"></i></a></li>
                     </ul>
                 </nav>
             <!-- /Navbar -->
