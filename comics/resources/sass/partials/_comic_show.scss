@@ -1,0 +1,64 @@
+.show{
+    .blue_bar{
+        height: 80px;
+        background-color: $brand_primary;
+        .container_small{
+            position: relative;
+            width: 80%;
+            height: 100%;
+            margin: 0 auto;
+            img{
+                position: absolute;
+                bottom: 1rem;
+                border: 1px solid white;
+            }
+        }
+    }
+    .container_small{
+        width: 80%;
+        margin: 0 auto;
+        .infos{
+            width: 70%;
+            margin-top: 3rem;
+            h1{
+                color: $brand_secondary;
+                text-transform: uppercase;
+                padding: 1rem 0;
+            }
+            .buy{
+                display: flex;
+                width: 100%;
+                background-color: #55BA59;
+                border-bottom: 2px solid #357739;
+                .price, .check{
+                    color: white;
+                }
+                .price{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 70%;
+                    padding: 1rem;
+                    span{
+                        opacity: 50%;
+                    }
+                }
+                .check{
+                    padding: 1rem;
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-left: 2px solid #357739;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .description{
+            margin-top: 1rem;
+        }
+    }
+}

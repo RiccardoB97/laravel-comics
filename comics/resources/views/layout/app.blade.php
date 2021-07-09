@@ -9,7 +9,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1d47f7a9f5.js" crossorigin="anonymous"></script>
     <title>@yield('title', 'Laravel-comics')</title>
-    <link rel="stylesheet" href="../images/favicon.ico">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">  
 </head>
 <body>
     <!-- Site header -->

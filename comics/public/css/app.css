@@ -202,3 +202,66 @@ body {
   margin-right: 0.7rem;
   height: 40px;
 }
+
+.show .blue_bar {
+  height: 80px;
+  background-color: #0282F9;
+}
+.show .blue_bar .container_small {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.show .blue_bar .container_small img {
+  position: absolute;
+  bottom: 1rem;
+  border: 1px solid white;
+}
+.show .container_small {
+  width: 80%;
+  margin: 0 auto;
+}
+.show .container_small .infos {
+  width: 70%;
+  margin-top: 3rem;
+}
+.show .container_small .infos h1 {
+  color: #1C1C1C;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+.show .container_small .infos .buy {
+  display: flex;
+  width: 100%;
+  background-color: #55BA59;
+  border-bottom: 2px solid #357739;
+}
+.show .container_small .infos .buy .price, .show .container_small .infos .buy .check {
+  color: white;
+}
+.show .container_small .infos .buy .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding: 1rem;
+}
+.show .container_small .infos .buy .price span {
+  opacity: 50%;
+}
+.show .container_small .infos .buy .check {
+  padding: 1rem;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid #357739;
+}
+.show .container_small .infos .buy .check a {
+  color: white;
+  text-decoration: none;
+}
+.show .container_small .description {
+  margin-top: 1rem;
+}
