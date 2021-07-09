@@ -27,7 +27,7 @@
                         <img src="../images/dc-logo.png" alt="">
                     </div>
                     <ul>
-                        <li><a href="#">characters</a></li>
+                        <li><a href="{{route('characters')}}">characters</a></li>
                         <li><a href="{{route('comics')}}">comics</a></li>
                         <li><a href="{{route('movies')}}">movies</a></li>
                         <li><a href="{{route('tv')}}">tv</a></li>

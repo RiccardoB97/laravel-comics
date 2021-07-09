@@ -17,11 +17,25 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('/characters', function () {
+    return view('characters');
+})->name('characters');
+
+
+// Comics
 Route::get('/comics', function () {
     $comics = config('comics.data');
     return view('comics', compact('comics'));
 })->name('comics');
 
+Route::get('comics/{id}', function ($id) {
+    $comics = config('comics.data');
+    ddd($comics[$id]);
+    return "mostra il comic con id $id";
+});
+
+
+// /Comics
 Route::get('/movies', function () {
     return view('movies');
 })->name('movies');
