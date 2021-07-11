@@ -221,13 +221,14 @@ body {
 .show .container_small {
   width: 80%;
   margin: 0 auto;
+  display: flex;
 }
 .show .container_small .infos {
   width: 70%;
   margin-top: 3rem;
 }
 .show .container_small .infos h1 {
-  color: #1C1C1C;
+  color: #343F5E;
   text-transform: uppercase;
   padding: 1rem 0;
 }
@@ -262,6 +263,52 @@ body {
   color: white;
   text-decoration: none;
 }
-.show .container_small .description {
+.show .container_small .infos .description {
   margin-top: 1rem;
+}
+.show .container_small .ad {
+  width: 30%;
+  margin-left: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.show .container_small .ad h4 {
+  color: #343F5E;
+}
+.show .cast {
+  background-color: #F6F6F6;
+}
+.show .cast .container_small {
+  display: flex;
+}
+.show .cast .container_small .title {
+  padding: 2rem 0;
+  border-bottom: 1px solid #DCDCDC;
+}
+.show .cast .container_small .title h3 {
+  color: #343F5E;
+}
+.show .cast .container_small .talent {
+  width: calc(100% / 2);
+  padding-right: 1rem;
+}
+.show .cast .container_small .specs {
+  width: calc(100% / 2);
+  padding-left: 1rem;
+}
+.show .cast .container_small .datas {
+  display: flex;
+  padding: 1rem 0;
+}
+.show .cast .container_small .datas .data_name {
+  width: 40%;
+}
+.show .cast .container_small .datas .data {
+  width: 60%;
+}
+.show .cast .container_small .datas .data a {
+  text-decoration: none;
+  color: #0282F9;
 }

@@ -1,4 +1,5 @@
 .show{
+
     .blue_bar{
         height: 80px;
         background-color: $brand_primary;
@@ -17,11 +18,12 @@
     .container_small{
         width: 80%;
         margin: 0 auto;
+        display: flex;
         .infos{
             width: 70%;
             margin-top: 3rem;
             h1{
-                color: $brand_secondary;
+                color: #343F5E;
                 text-transform: uppercase;
                 padding: 1rem 0;
             }
@@ -56,9 +58,56 @@
                     }
                 }
             }
+            .description{
+                margin-top: 1rem;
+            }
         }
-        .description{
-            margin-top: 1rem;
+        .ad{
+            width: 30%;
+            margin-left: 1.5rem;
+            margin-top: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            h4{
+                color: #343F5E;
+            }
+        }
+    }
+    .cast{
+        background-color: #F6F6F6;
+        .container_small{
+            display: flex;
+            .title {
+                padding: 2rem 0;
+                border-bottom: 1px solid #DCDCDC;
+                h3{
+                    color:#343F5E;
+                }
+            }
+            .talent{
+                width: calc(100% / 2);
+                padding-right: 1rem;
+            }
+            .specs{
+                width: calc(100% / 2);
+                padding-left: 1rem;
+            }
+            .datas{
+                display: flex;
+                padding: 1rem 0;
+
+                .data_name{
+                            width: 40%;
+                }
+                .data{
+                    width: 60%;
+                    a{
+                        text-decoration: none;
+                        color: $brand_primary;
+                    }
+                }
+            }
         }
     }
 }

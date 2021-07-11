@@ -29,6 +29,38 @@
                 {{$comic['description']}}
             </div>
         </div>
+        <div class="ad">
+            <h4>ADVERTISEMENT</h4>
+           <a href=""> <img src="../images/adv.jpg" alt=""></a>
+        </div>
     </div>
+    <section class="cast">
+        <div class="container_small">
+            <div class="talent">
+                <div class="title">
+                    <h3>Talent</h3>
+                </div>
+                <div class='datas'>
+                    <div class="data_name">
+                        <h5>Art by:</h5>
+                    </div>
+                    <div class="data">
+                        @foreach($comic['artists'] as $artist)
+                            <a href="">{{$artist}}</a>
+                            @if(!$loop->last)
+                                ,
+                            @endif
+                        @endforeach
+                    </div>
+
+                </div>
+            </div>
+            <div class="specs">
+                <div class="title">
+                    <h3>Specs</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 </section>
 @endsection
