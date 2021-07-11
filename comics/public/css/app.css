@@ -313,3 +313,22 @@ body {
   text-decoration: none;
   color: #0282F9;
 }
+.show .cast .container_small .cards {
+  width: 100%;
+  margin-top: 6rem;
+  display: flex;
+}
+.show .cast .container_small .cards .card {
+  width: calc(100% / 4);
+  border: 1px solid #DCDCDC;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.show .cast .container_small .cards .card h4 {
+  color: #DCDCDC;
+}
+.show .cast .container_small .cards .card img {
+  background-color: #dcdcdc;
+  height: 60px;
+}

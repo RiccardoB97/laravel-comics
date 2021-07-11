@@ -97,6 +97,30 @@
                 </div>
             </div>
         </div>
+        <div class="container_small">
+            <div class="cards">
+                <div class="card">
+                    <h4>DIGITAL COMICS</h4>
+                    <img src="../images/buy-comics-digital-comics.png" alt="">
+                </div>
+                <div class="card">
+                    <h4>SHOP DC</h4>
+                    <img src="../images/buy-comics-subscriptions.png" alt="">
+                    
+                </div>
+                <div class="card">
+                    <h4>COMIC SHOP LOCATION</h4>
+                    <img src="../images/buy-comics-shop-locator.png" alt="">
+                    
+                </div>
+                <div class="card">
+                    <h4>SUBSCRIPTIONS</h4>
+                    <img src="../images/buy-comics-merchandise.png" alt="">
+                    
+                </div>
+            </div>
+        </div>
     </section>
+    
 </section>
 @endsection
