@@ -301,6 +301,7 @@ body {
 .show .cast .container_small .datas {
   display: flex;
   padding: 1rem 0;
+  border-bottom: 1px solid #DCDCDC;
 }
 .show .cast .container_small .datas .data_name {
   width: 40%;

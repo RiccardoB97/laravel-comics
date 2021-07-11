@@ -52,12 +52,48 @@
                             @endif
                         @endforeach
                     </div>
-
+                </div>
+                <div class='datas'>
+                    <div class="data_name">
+                        <h5>Written by:</h5>
+                    </div>
+                    <div class="data">
+                        @foreach($comic['writers'] as $writer)
+                            <a href="">{{$writer}}</a>
+                            @if(!$loop->last)
+                                ,
+                            @endif
+                        @endforeach
+                    </div>
                 </div>
             </div>
             <div class="specs">
                 <div class="title">
                     <h3>Specs</h3>
+                </div>
+                <div class='datas'>
+                    <div class="data_name">
+                        <h5>Series:</h5>
+                    </div>
+                    <div class="data">
+                        <a href="">{{$comic['series']}}</a>
+                    </div>
+                </div>
+                <div class='datas'>
+                    <div class="data_name">
+                        <h5>U.S. Price:</h5>
+                    </div>
+                    <div class="data">
+                        <span>{{$comic['price']}}</span>
+                    </div>
+                </div>
+                <div class='datas'>
+                    <div class="data_name">
+                        <h5>On Sale Date:</h5>
+                    </div>
+                    <div class="data">
+                        <span>{{$comic['sale_date']}}</span>
+                    </div>
                 </div>
             </div>
         </div>
